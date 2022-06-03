@@ -1,6 +1,6 @@
 <template>
     <div class="row w-100">
-        <div v-for="movie in movies" :key="movie.imdbID" class="col-sm animate__animated animate__backInUp">
+        <div v-for="movie in movies" :key="movie.imdbID" class="col-sm">
             <MovieCard
                 :movie="movie"
             />
